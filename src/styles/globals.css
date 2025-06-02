@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-Fondo_principal: #F5F5F4;  /* Beige muy claro / neutro */
+  --color-Verde_herbal: #6B8E23;  /* Verde oliva relajante */
+  --color-Dorado_elegante: #D4AF37;  /* Toques premium en botones/texto */
+  --color-Texto_principal: #1E1E1E;  /* Gris oscuro o negro sutil */
+  --color-Fondo_secciones: #FFFFFF;  /* Blanco puro */
+
+}
+
+@utility contenedor {
+  @apply px-8 max-w-7xl mx-auto;
+}
+
+@utility titulo {
+  @apply text-center font-bold text-4xl text-secondary my-4;
+}
+
+@utility parrafo {
+  @apply text-sm/6 leading-6 mb-4;
+}
+
