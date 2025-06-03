@@ -1,34 +1,53 @@
-# 🚀 Next.js Template - Stirod
+# 🌿 Serena Spa & Wellness
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+Sitio web estático moderno desarrollado con [Next.js 15](https://nextjs.org/) y [Tailwind CSS](https://tailwindcss.com/), que representa una experiencia relajante, elegante y funcional para promocionar los servicios de un spa premium en Medellín.
 
 ---
 
-## 📋 Descripción
+## ✨ Vista previa
 
-Plantilla base para proyectos Next.js optimizada para rapidez, escalabilidad y buenas prácticas.  
-Incluye configuración lista para TypeScript, Tailwind CSS y manejo de alias para imports con pnpm.
+> **Demo en vivo:** [https://serena-spa.vercel.app](https://serena-spa.vercel.app) *(actualiza este enlace si cambias el dominio)*
 
----
-
-## 🧩 Características
-
-- Estructura limpia con carpeta `src/` (opcional)
-- Alias configurados para importar con `@/*`
-- Integración Tailwind CSS preconfigurada
-- Scripts listos para desarrollo y producción
-- Plantillas y componentes reutilizables en carpeta `templates`
-- ESLint y Prettier configurados para calidad de código
+![Hero Image](./public/images/hero.jpg)
 
 ---
 
-## ⚙️ Instalación
+## 🚀 Tecnologías utilizadas
 
-```bash
-git clone https://github.com/Stirod08/nextjs-template-stirod.git
-cd nextjs-template-stirod
-pnpm install
-pnpm dev
+- ⚛️ **Next.js 15** – Framework de React con routing optimizado y renderizado híbrido
+- 🎨 **Tailwind CSS** – Estilos rápidos y personalizables con enfoque mobile-first
+- 📁 **App Router** – Estructura moderna con rutas basadas en archivos
+- 📸 **Optimización de imágenes** – Gestión inteligente desde la carpeta `public/`
+- 🧠 **Tipografías de Google** – Elegancia y legibilidad con `Playfair Display` + `Inter`
+
+---
+
+## 📁 Estructura del proyecto
+
+src/
+├── app/
+│ ├── page.tsx # Página principal (Inicio)
+│ ├── servicios/page.tsx # Página de servicios
+│ ├── galeria/page.tsx # Página de galería
+│ └── contacto/page.tsx # Página de contacto
+├── components/ # Navbar, Footer, Hero, Cards, etc.
+├── styles/ # Estilos globales y personalizados
+└── assets/ # Imágenes, íconos y fuentes (opcional)
+
+
+---
+
+## 🎯 Objetivo del proyecto
+
+El propósito de este proyecto es simular el desarrollo real de un sitio web institucional para un cliente, permitiendo practicar habilidades modernas de frontend desde cero: estructura, diseño, navegación, semántica, responsive y despliegue.
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado con ❤️ por **Stiben Rodríguez**  
+*Ingeniero en Sistemas | Frontend Dev en entrenamiento 🚀*
+
+- [🔗 LinkedIn](https://linkedin.com/in/stibenrodriguez)
+- [📬 Email](mailto:tu-correo@correo.com)
+- [💻 GitHub](https://github.com/tuusuario)

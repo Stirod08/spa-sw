@@ -1,4 +1,10 @@
-import "../styles/globals.css";
+import { Playfair_Display, Lato } from 'next/font/google'
+const playfairDisplay = Playfair_Display({subsets: ['latin'], weight:"700"})
+const lato = Lato({subsets: ['latin'], weight:["700", "400"]})
+import "@/styles/globals.css";
+import Navbar from "@/components/Navbar"
+import Footer from '@/components/Footer';
+
 
 export const metadata = {
   title: 'Mi plantilla profesional con Next.js',
@@ -15,10 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
+      <body className={`${lato.className} bg-Fondo_principal`}
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

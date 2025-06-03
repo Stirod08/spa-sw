@@ -15,7 +15,7 @@
 }
 
 @utility titulo {
-  @apply text-center font-bold text-4xl text-secondary my-4;
+  @apply text-center font-bold text-4xl text-Verde_herbal my-4;
 }
 
 @utility parrafo {
