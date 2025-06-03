@@ -1,5 +1,4 @@
-import { Playfair_Display, Lato } from 'next/font/google'
-const playfairDisplay = Playfair_Display({subsets: ['latin'], weight:"700"})
+import { Lato } from 'next/font/google'
 const lato = Lato({subsets: ['latin'], weight:["700", "400"]})
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar"
