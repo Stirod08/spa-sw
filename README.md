@@ -15,8 +15,8 @@ Este sitio web busca transmitir esa misma calma desde el primer scroll.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat-square)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat-square)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?logo=cloudinary&logoColor=white&style=flat-square)
 ![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=white&style=flat-square)
-![EmailJS](https://img.shields.io/badge/EmailJS-49A2F8?logo=gmail&logoColor=white&style=flat-square)
+![Lucide React](https://img.shields.io/badge/Lucide_React-61DAFB?logo=react&logoColor=white&style=flat-square)
 
 ---
+
