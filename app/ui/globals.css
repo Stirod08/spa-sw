@@ -21,5 +21,9 @@
 
 
 body {
-  background-color: var(--color-salvia);
+  background-color: var(--blanco);
+}
+
+.hero {
+  background-image: url("/spaHero.jpg");
 }
