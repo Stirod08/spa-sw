@@ -1,18 +1,19 @@
+import Boton from "../components/Boton";
 
 
 export default function Hero() {
 
     return (
         <>
-            <section className="hero h-dvh md:h-[300px] bg-no-repeat bg-center bg-cover">
-                <section>
-                    <div>
-                        <h1>Spaira</h1>
-                        <p>Respira. Renueva. Fluye.</p>
+            <section className="hero h-dvh md:h-[450px] bg-no-repeat bg-center bg-cover">
+                <section className="w-full h-full bg-black/80 flex flex-col justify-around md:justify-center items-center">
+                    <div className="text-blanco text-center">
+                        <h1 className="text-4xl md:text-6xl uppercase font-black mb-4">Spaira</h1>
+                        <p className="text-3xl md:text-5xl text-orange font-bold">Respira - Renueva - Fluye.</p>
                     </div>
-                    <p>Bienvenido a Spaira, un espacio dedicado a reencontrar tu equilibrio interior, donde cada detalle te invita a la calma, la belleza y el bienestar integral.</p>
+                    <p className="text-blanco text-center px-4 text-xl md:max-w-3xl py-8">Bienvenido a Spaira, un espacio dedicado a reencontrar tu equilibrio interior, donde cada detalle te invita a la calma, la belleza y el bienestar integral.</p>
 
-                    <a className="bg-verdeOscuro text-blanco px-4 py-2 rounded" href="#">Reserva tu momento de pausa.</a>
+                    <Boton hover="verdeOscuro" color="verdeClaro"  text="Conoce nuestros servicios" link="#"/>
                 </section>
             </section>
         </>
