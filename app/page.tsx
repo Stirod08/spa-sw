@@ -1,24 +1,18 @@
 import Image from "next/image";
 import Header from "./ui/layout/Header";
 import Hero from "./ui/Inicio/Hero";
+import SobreSpaira from "./ui/Inicio/SobreSpaira";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
-      <main className="mx-4">
       
 
       <main className="mx-4">
-        <section>
-        <article>
-          <h2>Creador</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda voluptates error amet voluptas consequatur, laudantium alias repudiandae cumque dolores repellendus blanditiis praesentium ad eligendi. Deleniti perferendis totam fuga minus.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente atque amet harum autem ea a saepe ipsa! Sint et temporibus placeat? Optio accusantium nam eligendi perspiciatis architecto molestias expedita!</p>
-        </article>
-        <video src="https://www.w3schools.com/html/mov_bbb.mp4" loop muted autoPlay></video>
-      </section>
+        <SobreSpaira />
+        
 
       <section>
         <h2>Servicios</h2>
@@ -96,7 +90,6 @@ export default function Home() {
       <footer>
         <p>2025 Spaira. Todos los derechos reservados</p>
       </footer>
-      </main>
     </>
   )
 }
