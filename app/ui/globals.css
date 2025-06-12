@@ -22,8 +22,13 @@
 
 body {
   background-color: var(--blanco);
+  @apply text-gray-500
 }
 
 .hero {
   background-image: url("/spaHero.jpg");
+}
+
+@utility marca {
+  @apply font-bold uppercase;
 }
