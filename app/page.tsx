@@ -4,6 +4,7 @@ import Hero from "./ui/Inicio/Hero";
 import SobreSpaira from "./ui/Inicio/SobreSpaira";
 import ServiciosDestacados from "./ui/Inicio/ServiciosDestacados";
 import Seprador from "./ui/layout/components/Seprador";
+import Tecnologias from "./ui/Inicio/Tecnologias";
 
 export default function Home() {
   return (
@@ -12,38 +13,13 @@ export default function Home() {
       <Hero />
 
 
-      <main className="container mx-auto">
+      <main className="container mx-auto px-6">
         <SobreSpaira />
         <Seprador />
         <ServiciosDestacados />
-        
-
-        <section>
-          <h2>Tecnología con propósito</h2>
-          <p>En Spaira, creemos que el bienestar se potencia con innovación. Por eso usamos equipos de última generación que complementan nuestras terapias con resultados visibles y respetuosos.</p>
-          <section>
-            <article>
-              <h3>Radiofrecuencia facial y corporal</h3>
-              <p>Estimula colágeno, mejora la elasticidad y redefine contornos.</p>
-            </article>
-
-            <article>
-              <h3>Presoterapia digital</h3>
-              <p>Ideal para drenaje linfático, aliviar piernas cansadas y mejorar circulación.</p>
-            </article>
-
-            <article>
-              <h3>Ultracavitación</h3>
-              <p>Reduce grasa localizada con sesiones suaves y sin dolor</p>
-            </article>
-
-            <article>
-              <h3>Puntas de diamante</h3>
-              <p>Exfoliación profunda para una piel radiante y uniforme.</p>
-            </article>
-          </section>
-        </section>
       </main>
+      <div className="bg-[url('/parallax.jpg')] bg-fixed bg-cover bg-center h-[400px]"></div>
+      <Tecnologias />
 
       <section>
         <h2>Spaira, también vive en redes</h2>

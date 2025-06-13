@@ -6,7 +6,7 @@ export default function SobreSpaira() {
         <>
             <section className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16 place-items-stretch">
                 <article className="flex flex-col justify-center">
-                    <h2 className="text-2xl font-bold mb-2 uppercase text-verdeOscuro">Sobre Spaira</h2>
+                    <h2 className="text-4xl font-extrabold mb-6 uppercase text-verdeOscuro">Sobre Spaira</h2>
 
                     <p className="hyphens-auto text-justify">En <span className="marca">Spaira</span> creemos que el verdadero bienestar nace cuando el <strong>cuerpo, la mente y el espíritu están en armonía.</strong> Por eso hemos creado un lugar donde puedas desconectar de la rutina, dejar atrás el estrés y reconectar con lo que más importa: <strong>tú mismo.</strong></p>
                     <br />
