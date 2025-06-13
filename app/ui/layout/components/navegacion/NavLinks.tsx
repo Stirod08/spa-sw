@@ -8,10 +8,10 @@ type PropsNavLinks = {
 
 export default function NavLinks({ scrolled, onClick, textColor }: PropsNavLinks) {
   const links = [
-    { href: '#inicio', label: 'Inicio' },
-    { href: '#servicios', label: 'Servicios' },
-    { href: '#portafolio', label: 'Galería' },
-    { href: '#contacto', label: 'Contacto' },
+    { href: '/', label: 'Inicio' },
+    { href: '/enDesarrollo', label: 'Servicios' },
+    { href: '/enDesarrollo', label: 'Galería' },
+    { href: '/enDesarrollo', label: 'Faq' },
   ];
 
   const linkClass = `transition-colors duration-300  ${
