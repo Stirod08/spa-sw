@@ -19,4 +19,3 @@ Este sitio web busca transmitir esa misma calma desde el primer scroll.
 ![Lucide React](https://img.shields.io/badge/Lucide_React-61DAFB?logo=react&logoColor=white&style=flat-square)
 
 ---
-

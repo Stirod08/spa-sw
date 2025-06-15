@@ -11,7 +11,7 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
   return (
     <div className="md:hidden bg-verdeClaro border-t border-verdeOscuro shadow-sm">
       <ul className="flex flex-col space-y-4 p-6 font-medium">
-        <NavLinks scrolled={false} onClick={onClose} textColor='blanco'/>
+        <NavLinks scrolled={false} onClick={onClose} textColor="blanco" />
       </ul>
     </div>
   );
