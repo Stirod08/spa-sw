@@ -16,7 +16,7 @@ export const tecnologias: Tecnologia[] = [
   {
     id: 3,
     title: 'Ultracavitación',
-    img: 'ultracavitación',
+    img: 'ultracavitacion',
     description: 'Reduce grasa localizada con sesiones suaves y sin dolor',
   },
   {
