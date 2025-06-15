@@ -15,27 +15,27 @@ export default function Footer() {
         </div>
 
         {/* Menú del sitio */}
-        <nav>
+        {/* <nav>
           <h3 className="text-lg font-semibold mb-2">Navegación</h3>
           <ul className="space-y-1 text-sm">
-            {/* <NavLinks textColor="blanco" scrolled={false} /> */}
+            <NavLinks textColor="blanco" scrolled={false} />
           </ul>
-        </nav>
+        </nav> */}
 
         {/* Servicios principales */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Servicios</h3>
           <nav className="flex flex-col space-y-1">
-            <Link href={'enDesarrollo'} className="text-sm hover:text-orange">
+            <Link href={'#1'} className="text-sm hover:text-orange">
               Masajes terapéuticos
             </Link>
-            <Link href={'enDesarrollo'} className="text-sm hover:text-orange">
+            <Link href={'#2'} className="text-sm hover:text-orange">
               Limpiezas faciales profundas
             </Link>
-            <Link href={'enDesarrollo'} className="text-sm hover:text-orange">
+            <Link href={'#3'} className="text-sm hover:text-orange">
               Spa de manos y pies
             </Link>
-            <Link href={'enDesarrollo'} className="text-sm hover:text-orange">
+            <Link href={'#4'} className="text-sm hover:text-orange">
               Rituales corporales detox
             </Link>
           </nav>
