@@ -1,4 +1,6 @@
-export const tecnologias = [
+import { Tecnologia } from '@/types/tecnologias';
+
+export const tecnologias: Tecnologia[] = [
   {
     id: 1,
     title: 'Radiofrecuencia facial y corporal',

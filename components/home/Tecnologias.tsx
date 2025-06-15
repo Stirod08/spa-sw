@@ -1,4 +1,4 @@
-import { tecnologias } from '@/app/data/tecnologias';
+import { tecnologias } from '@/data/tecnologias';
 import Image from 'next/image';
 
 export default function Tecnologias() {

@@ -1,4 +1,4 @@
-import { servicios } from '@/app/data/servicios';
+import { servicios } from '@/data/servicios';
 import Image from 'next/image';
 
 export default function ServiciosDestacados() {

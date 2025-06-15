@@ -1,4 +1,4 @@
-import Boton from '../components/Boton';
+import Boton from '../ui/Boton';
 
 export default function Hero() {
   return (

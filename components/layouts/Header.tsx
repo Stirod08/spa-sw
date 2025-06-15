@@ -1,11 +1,11 @@
 // components/Header.tsx
 'use client';
 
-import useHeaderLogic from '@/app/hooks/useHeaderLogic';
-import Logo from './components/Logo';
-import NavLinks from './components/navegacion/NavLinks';
-import MobileMenu from './components/navegacion/MobileMenu';
-import HamburgerButton from './components/navegacion/HamburgerButton';
+import useHeaderLogic from '@/hooks/useHeaderLogic';
+import Logo from '../ui/Logo';
+import NavLinks from './NavLinks';
+import MobileMenu from './MobileMenu';
+import HamburgerButton from './HamburgerButton';
 
 export default function Header() {
   const { scrolled, menuOpen, toggleMenu, closeMenu } = useHeaderLogic();

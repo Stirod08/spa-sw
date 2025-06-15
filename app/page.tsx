@@ -1,11 +1,9 @@
-// import Image from "next/image";
-import Header from './ui/layout/Header';
-import Hero from './ui/Inicio/Hero';
-import SobreSpaira from './ui/Inicio/SobreSpaira';
-import ServiciosDestacados from './ui/Inicio/ServiciosDestacados';
-import Seprador from './ui/layout/components/Seprador';
-import Tecnologias from './ui/Inicio/Tecnologias';
-import Redes from './ui/Inicio/Redes';
+import Hero from '../components/home/Hero';
+import SobreSpaira from '../components/home/SobreSpaira';
+import ServiciosDestacados from '../components/home/ServiciosDestacados';
+import Seprador from '../components/ui/Seprador';
+import Tecnologias from '../components/home/Tecnologias';
+import Redes from '../components/home/Redes';
 // import Footer from "./ui/layout/Footer";
 
 export default function Home() {
