@@ -9,9 +9,7 @@ export default function Footer() {
         {/* Logo y descripción */}
         <div>
           <h2 className="marca text-2xl">Spaira</h2>
-          <p className="mt-4 text-sm text-[#E6E6E6]">
-            Un espacio creado para sanar, renovarte y reconectar con tu esencia.
-          </p>
+          <p className="mt-4 text-blanco">Un espacio creado para sanar, renovarte y reconectar con tu esencia.</p>
         </div>
 
         {/* Menú del sitio */}

@@ -2,9 +2,9 @@ import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import Link from 'next/link';
 
 const redes = [
-  { id: 'face', Icon: Facebook, referencia: '#face' },
-  { id: 'insta', Icon: Instagram, referencia: '#insta' },
-  { id: 'yt', Icon: Youtube, referencia: '#yt' },
+  { id: 'facebook', Icon: Facebook, referencia: '#face' },
+  { id: 'instagram', Icon: Instagram, referencia: '#insta' },
+  { id: 'youtube', Icon: Youtube, referencia: '#yt' },
   { id: 'linkedin', Icon: Linkedin, referencia: '#linkedin' },
 ];
 
@@ -24,6 +24,7 @@ export default function Redes() {
           <Link
             key={id}
             href={referencia}
+            aria-label={`Ir al perfil de ${id}`}
             className="text-white bg-verdeOscuro p-2 rounded-lg hover:transform hover:scale-105 transition-all hover:text-melon duration-300"
           >
             <Icon size={25} className="" />
