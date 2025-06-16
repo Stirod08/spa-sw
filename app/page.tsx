@@ -16,7 +16,7 @@ export default function Home() {
         <Separador />
         <ServiciosDestacados />
       </main>
-      <div className="bg-[url('/parallax.jpg')] bg-fixed bg-cover bg-center h-[400px]"></div>
+      <div className="bg-[url('/parallax.webp')] bg-fixed bg-cover bg-center h-[400px]"></div>
       <Tecnologias />
       <Redes />
     </>

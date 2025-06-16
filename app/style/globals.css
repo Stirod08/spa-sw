@@ -1,11 +1,11 @@
 @import 'tailwindcss';
 
 :root {
-  --verdeOscuro: #0d5e4aff;
-  --verdeClaro: #4c956cff;
+  --verdeOscuro: #0d5e4a;
+  --verdeClaro: #4c956c;
   --blanco: #fdfdfc;
-  --melon: #ffc9b9ff;
-  --orange: #d68c45ff;
+  --melon: #ffc9b9;
+  --orange: #573c27;
 }
 
 @theme inline {
@@ -23,9 +23,9 @@ body {
   @apply text-gray-700;
 }
 
-.hero {
-  background-image: url('/spaHero.jpg');
-}
+/* .hero {
+  background-image: url('/spaHero.webp');
+} */
 
 @utility marca {
   @apply font-bold uppercase;

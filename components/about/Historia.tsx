@@ -1,7 +1,7 @@
 export default function Historia() {
   return (
     <>
-      <section className="container mx-auto max-w-3xl px-8 pb-16">
+      <section className="container mx-auto max-w-3xl px-8 pb-16 hyphens-auto text-justify">
         <h2 className="text-4xl font-extrabold mb-6 mt-8 text-center uppercase text-verdeOscuro">Nuestra Historia</h2>
         <p className="mb-6">
           Todo comenzó una tarde en la que necesitaba respirar. El caos del trabajo, las responsabilidades del hogar, y

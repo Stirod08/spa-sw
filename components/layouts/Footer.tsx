@@ -26,16 +26,16 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-2">Servicios</h3>
           <nav className="flex flex-col space-y-1">
-            <Link href={'#1'} className="text-sm hover:text-orange">
+            <Link href={'#1'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
               Masajes terapéuticos
             </Link>
-            <Link href={'#2'} className="text-sm hover:text-orange">
+            <Link href={'#2'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
               Limpiezas faciales profundas
             </Link>
-            <Link href={'#3'} className="text-sm hover:text-orange">
+            <Link href={'#3'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
               Spa de manos y pies
             </Link>
-            <Link href={'#4'} className="text-sm hover:text-orange">
+            <Link href={'#4'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
               Rituales corporales detox
             </Link>
           </nav>
@@ -52,8 +52,7 @@ export default function Footer() {
 
       {/* Derechos */}
       <div className="text-center mt-10 text-xs text-blanco">
-        © {new Date().getFullYear()} <span className="marca">Spaira</span>. Todos los derechos
-        reservados.
+        © {new Date().getFullYear()} <span className="marca">Spaira</span>. Todos los derechos reservados.
       </div>
     </footer>
   );
