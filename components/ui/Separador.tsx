@@ -1,6 +1,6 @@
 import { Shell } from 'lucide-react';
 
-export default function Seprador() {
+export default function Separador() {
   return (
     <>
       <div className="flex justify-center items-center my-4">
