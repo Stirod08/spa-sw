@@ -8,10 +8,9 @@ export default function Tecnologias() {
         <h2 className="text-4xl font-extrabold mb-6 mt-16 text-center uppercase text-verdeOscuro">
           Tecnología con propósito
         </h2>
-        <p className="md:max-w-3xl mx-auto text-center">
-          En Spaira, creemos que el bienestar se potencia con innovación. Por eso usamos equipos de
-          última generación que complementan nuestras terapias con resultados visibles y
-          respetuosos.
+        <p className="md:max-w-3xl mx-auto text-center italic font-light text-gray-900">
+          En Spaira, creemos que el bienestar se potencia con innovación. Por eso usamos equipos de última generación
+          que complementan nuestras terapias con resultados visibles y respetuosos.
         </p>
 
         <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 my-8">

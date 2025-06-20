@@ -5,7 +5,7 @@ export default function Valores() {
     <>
       <div className="bg-verdeOscuro py-8">
         <section className="container mx-auto px-8 my-8 text-blanco">
-          <h2 className="text-3xl font-extrabold mb-6 text-center uppercase text-melon">Valores que nos guían</h2>
+          <h2 className="text-4xl font-extrabold mb-16 text-center uppercase text-melon">Valores que nos guían</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-8 mt-8">
             <article className="flex flex-col justify-center items-center">

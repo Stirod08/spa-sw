@@ -11,7 +11,6 @@ export default function NavLinks({ scrolled, onClick, textColor }: PropsNavLinks
     { href: '/about', label: 'Nosotros' },
     { href: '/services', label: 'Servicios' },
     { href: '/galery', label: 'Galería' },
-    { href: '/faq', label: 'Faq' },
   ];
 
   const linkClass = `transition-all duration-300  ${

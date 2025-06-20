@@ -4,6 +4,7 @@ import ServiciosDestacados from '@/components/home/ServiciosDestacados';
 import Separador from '@/components/ui/Separador';
 import Tecnologias from '@/components/home/Tecnologias';
 import Redes from '@/components/home/Redes';
+import Faq from '@/components/home/Faq';
 // import Footer from "./ui/layout/Footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <div className="bg-[url('/parallax.webp')] bg-fixed bg-cover bg-center h-[400px]"></div>
       <Tecnologias />
       <Redes />
+      <Faq />
     </>
   );
 }

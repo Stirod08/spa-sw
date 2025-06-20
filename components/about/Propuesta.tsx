@@ -9,7 +9,7 @@ export default function Propuesta() {
           tecnología <span className="text-verdeOscuro">+</span> atención humana{' '}
           <span className="text-verdeOscuro">+</span> rituales conscientes
         </p>
-        <p className="mb-6 italic max-w-3xl mx-auto py-8 text-center">
+        <p className="mb-6 max-w-3xl mx-auto py-8 text-center italic font-light text-gray-900">
           Fusionamos técnicas tradicionales y aparatología avanzada. Aquí no se trata de una visita al spa, sino de un
           viaje conectado: aromaterapia, presoterapia y manos expertas para equilibrarte desde adentro.
         </p>

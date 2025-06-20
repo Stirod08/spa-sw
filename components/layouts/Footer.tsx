@@ -1,57 +1,65 @@
 import Link from 'next/link';
 // import Redes from "../Inicio/Redes";
-// import NavLinks from "./components/navegacion/NavLinks";
 
 export default function Footer() {
   return (
     <footer className="bg-verdeClaro text-blanco py-12 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Logo y descripción */}
-        <div>
-          <h2 className="marca text-2xl">Spaira</h2>
-          <p className="mt-4 text-blanco">Un espacio creado para sanar, renovarte y reconectar con tu esencia.</p>
-        </div>
-
-        {/* Menú del sitio */}
-        {/* <nav>
-          <h3 className="text-lg font-semibold mb-2">Navegación</h3>
-          <ul className="space-y-1 text-sm">
-            <NavLinks textColor="blanco" scrolled={false} />
-          </ul>
-        </nav> */}
+      <section className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        {/* Marca y descripción */}
+        <section aria-labelledby="footer-brand">
+          <h2 id="footer-brand" className="marca text-2xl mb-2">
+            Spaira
+          </h2>
+          <p className="text-sm">Un espacio creado para sanar, renovarte y reconectar con tu esencia.</p>
+        </section>
 
         {/* Servicios principales */}
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Servicios</h3>
-          <nav className="flex flex-col space-y-1">
-            <Link href={'#1'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
-              Masajes terapéuticos
-            </Link>
-            <Link href={'#2'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
-              Limpiezas faciales profundas
-            </Link>
-            <Link href={'#3'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
-              Spa de manos y pies
-            </Link>
-            <Link href={'#4'} className="p-1 text-sm hover:text-orange hover:bg-blanco/80 hover:rounded-md">
-              Rituales corporales detox
-            </Link>
-          </nav>
-        </div>
+        <nav aria-labelledby="footer-services">
+          <h3 id="footer-services" className="text-lg font-semibold mb-3">
+            Servicios
+          </h3>
+          <ul className="flex flex-col space-y-1 text-sm">
+            {[
+              { href: '#1', label: 'Masajes terapéuticos' },
+              { href: '#2', label: 'Limpiezas faciales profundas' },
+              { href: '#3', label: 'Spa de manos y pies' },
+              { href: '#4', label: 'Rituales corporales detox' },
+            ].map((item, idx) => (
+              <li key={idx}>
+                <Link
+                  href={item.href}
+                  className="hover:text-verdeOscuro hover:bg-white rounded-md px-2 py-1 transition-colors duration-150 block"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* Contacto */}
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Contáctanos</h3>
-          <p className="text-sm">📍 Cra. 45 #50-25, Medellín, Colombia</p>
-          <p className="text-sm mt-1">📞 +57 310 456 7890</p>
-          <p className="text-sm mt-1">✉️ contacto@spaira.co</p>
-        </div>
-      </div>
+        <address className="not-italic text-sm space-y-1" aria-labelledby="footer-contact">
+          <h3 id="footer-contact" className="text-lg font-semibold mb-3">
+            Contáctanos
+          </h3>
+          <p>📍 Cra. 45 #50-25, Medellín, Colombia</p>
+          <p>📞 +57 310 456 7890</p>
+          <p>
+            ✉️{' '}
+            <a
+              href="mailto:contacto@spaira.co"
+              className="underline hover:text-verdeOscuro hover:bg-white px-2 py-1 rounded-sm"
+            >
+              contacto@spaira.co
+            </a>
+          </p>
+        </address>
+      </section>
 
       {/* Derechos */}
-      <div className="text-center mt-10 text-xs text-blanco">
+      <section className="text-center mt-10 text-xs text-blanco/80">
         © {new Date().getFullYear()} <span className="marca">Spaira</span>. Todos los derechos reservados.
-      </div>
+      </section>
     </footer>
   );
 }

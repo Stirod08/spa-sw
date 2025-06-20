@@ -5,8 +5,8 @@ export default function ServiciosDestacados() {
   return (
     <>
       <section className="mt-8 mb-16">
-        <h2 className="text-2xl font-bold mb-2 uppercase text-verdeOscuro text-center">Servicios</h2>
-        <p className="md:max-w-3xl mx-auto text-center">
+        <h2 className="text-4xl font-extrabold mb-6 text-center uppercase text-verdeOscuro">Servicios</h2>
+        <p className="md:max-w-3xl mx-auto text-center italic font-light text-gray-900">
           Explora los rituales diseñados para renovar tu cuerpo y reconectar con tu energía. Cada servicio ha sido
           pensado para darte una experiencia transformadora y profundamente relajante.
         </p>

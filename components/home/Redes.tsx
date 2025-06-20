@@ -14,7 +14,7 @@ export default function Redes() {
       <h2 className="text-4xl font-extrabold mb-6 mt-8 text-center uppercase text-verdeOscuro">
         Spaira, también vive en redes
       </h2>
-      <p className="md:max-w-3xl mx-auto text-center">
+      <p className="md:max-w-3xl mx-auto text-center italic font-light text-gray-900">
         Conéctate con nuestra comunidad, descubre tips de autocuidado, momentos de inspiración y promociones exclusivas.
         Porque el bienestar también se comparte.
       </p>
